@@ -1,0 +1,8 @@
+[package]
+name = "cuda-resilience"
+version = "0.1.0"
+edition = "2021"
+description = "Resilience patterns — bulkhead, timeout, retry with backoff, rate limiter, and chaos monkey for agent fault tolerance"
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
